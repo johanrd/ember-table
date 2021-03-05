@@ -1,0 +1,142 @@
+.demo-options {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.demo-options > * + * {
+  padding-left: 2em;
+}
+.demo-options:not(:last-child) {
+  padding-bottom: 1em;
+}
+.demo-options label {
+  white-space: nowrap;
+}
+.demo-options-heading {
+  text-transform: uppercase;
+}
+.demo-current-selection {
+  font-weight: bold;
+}
+.demo-options-group {
+  display: flex;
+}
+.demo-options-group h4 {
+  font-weight: normal;
+  font-size: larger;
+}
+.demo-options-group *:first-child {
+  flex-basis: 40%;
+}
+.demo-options-group > * + * {
+  padding-left: 2em;
+}
+.demo-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+.demo-container.small {
+  height: 200px;
+}
+.demo-container.fixed-width {
+  width: 800px;
+}
+.vertical-borders td:not(:first-child), .vertical-borders th:not(:first-child) {
+  box-sizing: border-box;
+  border-left: 1px solid #ddd;
+}
+.et-table td, .et-table th {
+  background: #fff;
+}
+/* Custom component classes */
+.custom-component-container {
+  position: relative;
+  width: 360px;
+  height: 300px;
+}
+.cell-image {
+  height: 40px;
+  width: 40px;
+}
+.custom-row {
+  background: #0f0;
+}
+.custom-footer {
+  background-color: #0f0;
+}
+.info-table {
+  margin: 2em auto;
+}
+.info-table th {
+  background-color: #f1f5f8;
+}
+.info-table th, .info-table td {
+  padding: 0.5em;
+  border: 1px solid #555;
+}
+.info-table .center {
+  text-align: center;
+}
+.info-table .highlight {
+  background-color: #96c178;
+}
+.info-table td:not(:first-child) {
+  font-weight: bold;
+}
+
+.ember-table .et-toggle-select input[type='checkbox'] + *:after {
+  background-image: url('images/checkmark.svg');
+}
+.resize-container {
+  resize: both;
+  overflow: scroll;
+  border: solid 1px #dae1e7;
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+}
+.resize-container.w-100 {
+  width: 100%;
+}
+.docs-hero > div {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.docs-hero h1 {
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
+}
+.docs-hero h1 > div {
+  margin: 0;
+}
+.docs-hero h1 > div > span {
+  height: 4rem;
+}
+.docs-hero p {
+  margin-top: 0;
+}
+tr.has-children td {
+  background-color: #f7f7f7;
+}
+tr.is-row-selected td {
+  background-color: #e5f5ff;
+}
+tr td.is-column-selected, tr th.is-column-selected {
+  background-color: #e5f5ff;
+  border-bottom-color: #d2e2ec;
+}
+tr td.is-cell-selected {
+  background-color: #b8ddf5;
+}
+.cell-content {
+  margin: -4px;
+  padding: 4px;
+  height: 30px;
+}
+.small {
+  font-size: small;
+}
+.custom-header {
+  padding: 0.25em;
+}
